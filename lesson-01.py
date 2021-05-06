@@ -1,4 +1,22 @@
+# --STEP LIST--
+# 1. Run this script.
+#     In your command line terminal window execute the following line:
+#     python lesson-01.py
+
+# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+# The results should look like this:
+# -- str() variable --
+# This is a string
 #
+# -- int() variable --
+# 10
+#
+# -- list() variable --
+# ['This', 'is', 'a', 'list']
+#
+# -- dict() variable --
+# {'key1': 'value1', 'key2': 'value2'}
 
 a = "This is a string"
 
