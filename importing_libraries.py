@@ -13,4 +13,5 @@ import pandas
 if __name__ == "__main__":
     file_path = ""
     df = pandas.read_excel(file_path)
+    print(df)
 
