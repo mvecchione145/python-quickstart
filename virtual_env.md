@@ -2,7 +2,9 @@
 
 Starting a project in Pycharm will automatically build a python virtual environment contained within the "venv" folder.
 If you plan on working on a project outside of Pycharm you will need to understand [how to set up a virtual environment
-in command line terminal]().
+in command line terminal](
+https://github.com/mvecchione145/python-quickstart/blob/main/virtual_env.md#create-a-virtual-environment-in-command-line
+).
 
 [MORE ON virtual environment](https://docs.python.org/3/tutorial/venv.html)
 
