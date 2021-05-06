@@ -20,7 +20,7 @@ git clone https://github.com/mvecchione145/python-quickstart.git
 ```
 Then open pycharm and select create new project using the github repo as the base project path
 
-![Image of pycharm project](http://url/to/img.png)
+![Image of pycharm project](pycharm-new-project.png)
 
 ## Lesson 1
 
