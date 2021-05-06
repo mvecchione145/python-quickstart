@@ -36,7 +36,7 @@ file_path = "exercise_files/example.xlsx"
 # relative path of example excel file
 
 df = pandas.read_excel(file_path)
-# creating a DataFrame from excel file
+# loading the excel file into a pandas.DataFrame
 
 print(df)
-# printing the DataFrame
+# printing the pandas.DataFrame
