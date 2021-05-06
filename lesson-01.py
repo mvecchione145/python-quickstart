@@ -32,7 +32,6 @@
 import pandas
 # import the pandas library
 
-
 file_path = "exercise_files/example.xlsx"
 # relative path of example excel file
 
