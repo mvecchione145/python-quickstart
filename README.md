@@ -37,8 +37,10 @@ Understanding functions and classes.
 
 ## Lesson 4
 
+Understanding how to create your own packages.
+
 [Exercise](https://github.com/mvecchione145/python-quickstart/blob/main/lesson-04.py)
 
 ### Resources
 
-- [--lesson--]()
+- [Packages]()
