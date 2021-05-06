@@ -20,7 +20,7 @@ Python characterized variables in its code by data types. They can be any of the
 | binary | [Bytes](https://github.com/mvecchione145/python-quickstart/blob/main/resources/data_types.md#bytes) | ```bytes()``` | ```x = b"Hello"``` |
 | - | [Byte Array](https://github.com/mvecchione145/python-quickstart/blob/main/resources/data_types.md#byte-array) | ```bytearray()``` | ```x = bytearray(5)``` |
 | - | [Memory View](https://github.com/mvecchione145/python-quickstart/blob/main/resources/data_types.md#memory-view) | ```memoryview()``` | ```x = memoryview(bytes(5))``` |
-| **custom** | [object](https://github.com/mvecchione145/python-quickstart/blob/main/resources/data_types.md#object) | ```object()``` | ```x = object()``` |
+| **custom** | [Object](https://github.com/mvecchione145/python-quickstart/blob/main/resources/data_types.md#object) | ```object()``` | ```x = object()``` |
 
 ### String
 
