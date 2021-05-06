@@ -48,6 +48,7 @@ Understanding libraries and virtual environment.
 Understanding functions and classes.
 
 [Exercise-a](https://github.com/mvecchione145/python-quickstart/blob/main/lesson-03a.py)
+
 [Exercise-b](https://github.com/mvecchione145/python-quickstart/blob/main/lesson-03b.py)
 
 ### Resources
