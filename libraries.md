@@ -50,8 +50,9 @@ by the version.
 
 ## Built-In Libraries
 
-[SEE HERE FOR MORE](https://docs.python.org/3/library/)
-
 When you create your [virtual environment]() you are creating a folder structure for python's built-in functions and
 libraries as well as a python compiler. Built-In functions include ```print()``` and ```import``` which don't require
 importing, while built-in libraries require each python script you write to import them before use.
+
+[SEE HERE FOR MORE](https://docs.python.org/3/library/)
+
