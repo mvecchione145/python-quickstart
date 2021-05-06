@@ -20,4 +20,4 @@ Python characterized variables in its code by data types. They can be any of the
 | binary | Bytes | ```bytes()``` | ```x = b"Hello"``` |
 | - | Byte Array | ```bytearray()``` | ```x = bytearray(5)``` |
 | - | Memory View | ```memoryview()``` | ```x = memoryview(bytes(5))``` |
-| *custom* | object | ```object()``` | ```x = object()``` |
+| **custom** | object | ```object()``` | ```x = object()``` |
