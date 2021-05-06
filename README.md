@@ -9,7 +9,7 @@ Understanding the basics of python.
 ## Lesson 2
 [readme]()
 
-[exercise]()
+[exercise](https://github.com/mvecchione145/python-quickstart/blob/main/lesson-02.py)
 
 ## Lesson 3
 [readme]()
