@@ -20,6 +20,7 @@
 #     In your command line terminal window execute the following line:
 #     python lesson-01.py
 
+
 # The results should look like this:
 #    ID           FullName         DOB
 # 0   1   Thomas Jefferson   4/13/1743
@@ -36,7 +37,7 @@ file_path = "example.xlsx"
 # relative path of example excel file
 
 df = pandas.read_excel(file_path)
-# creating a dataframe from excel file
+# creating a DataFrame from excel file
 
 print(df)
-# printing the dataframe
+# printing the DataFrame
