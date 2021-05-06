@@ -9,9 +9,9 @@ https://github.com/mvecchione145/python-quickstart/blob/main/virtual_env.md#crea
 
 ## Components of venv
 
-- bin: files that interact with the virtual environment
-- include: C headers that compile the Python packages
-- lib: a copy of the Python version along with a site-packages folder where each dependency is installed
+- /bin: files that interact with the virtual environment
+- /include: C headers that compile the Python packages
+- /lib: a copy of the Python version along with a site-packages folder where each dependency is installed
 
 ## Create venv in command line
 ### Install venv
