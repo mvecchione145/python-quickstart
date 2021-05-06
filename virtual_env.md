@@ -14,5 +14,20 @@ https://github.com/mvecchione145/python-quickstart/blob/main/virtual_env.md#crea
 - include: C headers that compile the Python packages
 - lib: a copy of the Python version along with a site-packages folder where each dependency is installed
 
-## Create a virtual environment in command line
+## Create venv in command line
+### Install venv
 
+```
+pip install virtualenv
+```
+
+Virtualenv must be installed before using.
+
+### Build venv
+
+```
+virtualenv venv
+```
+
+There are optional parameters involved in creating a virtual environment but the code above is the minimum required to
+successfully create a virtual environment. "venv" can be named anything but that is the proper convention.
