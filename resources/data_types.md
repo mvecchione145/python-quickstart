@@ -15,12 +15,12 @@ Python characterized variables in its code by data types. They can be any of the
 | - | [Range](https://github.com/mvecchione145/python-quickstart/blob/main/resources/data_types.md#range) | ```range()``` | ```x = range(6)``` |
 | mapping | [Dictionary](https://github.com/mvecchione145/python-quickstart/blob/main/resources/data_types.md#dictionary) | ```dict()``` | ```x = {"name" : "John", "age" : 36}``` |
 | set | [Set](https://github.com/mvecchione145/python-quickstart/blob/main/resources/data_types.md#set) | ```set()``` | ```x = {"apple", "banana", "cherry"}``` |
-| - | [Frozen Set]() | ```frozenset()``` | ```x = frozenset({"apple", "banana", "cherry"})``` |
-| boolean | [Boolean]() | ```bool()``` | ```x = True``` |
-| binary | [Bytes]() | ```bytes()``` | ```x = b"Hello"``` |
-| - | [Byte Array]() | ```bytearray()``` | ```x = bytearray(5)``` |
-| - | [Memory View]() | ```memoryview()``` | ```x = memoryview(bytes(5))``` |
-| **custom** | [object]() | ```object()``` | ```x = object()``` |
+| - | [Frozen Set](https://github.com/mvecchione145/python-quickstart/blob/main/resources/data_types.md#frozen-set) | ```frozenset()``` | ```x = frozenset({"apple", "banana", "cherry"})``` |
+| boolean | [Boolean](https://github.com/mvecchione145/python-quickstart/blob/main/resources/data_types.md#boolean) | ```bool()``` | ```x = True``` |
+| binary | [Bytes](https://github.com/mvecchione145/python-quickstart/blob/main/resources/data_types.md#bytes) | ```bytes()``` | ```x = b"Hello"``` |
+| - | [Byte Array](https://github.com/mvecchione145/python-quickstart/blob/main/resources/data_types.md#byte-array) | ```bytearray()``` | ```x = bytearray(5)``` |
+| - | [Memory View](https://github.com/mvecchione145/python-quickstart/blob/main/resources/data_types.md#memory-view) | ```memoryview()``` | ```x = memoryview(bytes(5))``` |
+| **custom** | [object](https://github.com/mvecchione145/python-quickstart/blob/main/resources/data_types.md#object) | ```object()``` | ```x = object()``` |
 
 ### String
 
@@ -98,3 +98,13 @@ x <= 15
 ### Set
 
 ### Frozen Set
+
+### Boolean
+
+### Bytes
+
+### Byte Array
+
+### Memory View
+
+### Object
