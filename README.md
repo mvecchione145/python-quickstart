@@ -4,7 +4,7 @@ Understanding the basics of python.
 ## Lesson 1
 [readme](https://github.com/mvecchione145/python-quickstart/blob/main/libraries.md)
 
-[exercise](https://github.com/mvecchione145/python-quickstart/blob/main/importing_libraries.py)
+[exercise](https://github.com/mvecchione145/python-quickstart/blob/main/lesson-01.py)
 
 ## Lesson 2
 [readme]()

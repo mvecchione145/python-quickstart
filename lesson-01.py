@@ -8,10 +8,9 @@
 ## you can call it at the top of your script through an import line.
 
 import pandas
+# pandas is a tabular data
 
 
-if __name__ == "__main__":
-    file_path = ""
-    df = pandas.read_excel(file_path)
-    print(df)
-
+file_path = ""
+df = pandas.read_excel(file_path)
+print(df)
