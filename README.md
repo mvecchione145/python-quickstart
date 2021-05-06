@@ -1,6 +1,27 @@
 # python-quickstart
 Understanding the basics of python.
 
+### Prerequisites
+
+#### Pycharm
+
+Please download [pycharm](https://www.jetbrains.com/pycharm/download/).
+
+#### Clone this repo
+
+If you clone this repository to your local computer you may alter any of these exercise files and explore all
+possibilities within the scope of each lesson.
+
+##### 
+
+In a command line terminal window execute the following:
+```
+git clone https://github.com/mvecchione145/python-quickstart.git
+```
+Then open pycharm and select create new project using the github repo as the base project path
+
+![Image of pycharm project](http://url/to/img.png)
+
 ## Lesson 1
 
 Understanding data types.
