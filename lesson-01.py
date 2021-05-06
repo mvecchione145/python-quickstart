@@ -33,7 +33,7 @@ import pandas
 # import the pandas library
 
 
-file_path = "example.xlsx"
+file_path = "exercise_files/example.xlsx"
 # relative path of example excel file
 
 df = pandas.read_excel(file_path)
