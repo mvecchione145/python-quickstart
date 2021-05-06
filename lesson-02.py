@@ -1,12 +1,3 @@
-# If you would like to use an outside library you would need to
-# pip install in the command line to first save it to your virtual
-# environment.
-
-# > pip install {library_name}
-
-# Once the library is saved in your projects virtual environment
-# you can call it at the top of your script through an import line.
-
 # --STEP LIST--
 # 1. Run this script AS IS (error is expected: "ModuleNotFoundError: No module named 'pandas'")
 #     In your command line terminal window execute the following line:
@@ -20,6 +11,7 @@
 #     In your command line terminal window execute the following line:
 #     python lesson-02.py
 
+# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
 # The results should look like this:
 #    ID           FullName         DOB
