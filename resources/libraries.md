@@ -1,9 +1,9 @@
 # Python Libraries
 
 Libraries are portable code that can be
-[Built-In](https://github.com/mvecchione145/python-quickstart/blob/main/libraries.md#built-in-libraries) (come
+[Built-In](https://github.com/mvecchione145/python-quickstart/blob/main/resources/libraries.md#built-in-libraries) (come
 pre-installed with your virtual environment) or installed via
-[pip](https://github.com/mvecchione145/python-quickstart/blob/main/libraries.md##pip).
+[pip](https://github.com/mvecchione145/python-quickstart/blob/main/resources/libraries.md##pip).
 
 
 ## pip
@@ -50,9 +50,11 @@ by the version.
 
 ## Built-In Libraries
 
-When you create your [virtual environment]() you are creating a folder structure for python's built-in functions and
-libraries as well as a python compiler. Built-In functions include ```print()``` and ```import``` which don't require
-importing, while built-in libraries require each python script you write to import them before use.
+When you create your [virtual environment](
+https://github.com/mvecchione145/python-quickstart/blob/main/resources/virtual_env.md) you are creating a folder
+structure for python's built-in functions and libraries as well as a python compiler. Built-In functions include
+```print()``` and ```import``` which don't require importing, while built-in libraries require each python script you
+write to import them before use.
 
 [SEE HERE FOR MORE](https://docs.python.org/3/library/)
 
