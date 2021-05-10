@@ -77,3 +77,14 @@ Understanding how to create a Flask app and deploy it using [Heroku](https://www
 
 - [Flask]()
 - [App Hosting]()
+
+## Lesson 6
+
+Understanding how to utilize the requests library and scrape the internet.
+
+[Exercise](https://github.com/mvecchione145/python-quickstart/blob/main/lesson-06.py)
+
+### Resources
+
+- [requests]()
+- [etree]()
