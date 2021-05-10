@@ -9,7 +9,8 @@
 ```
 import requests
 
-data = requests.get('https://www.google.com/')
+response = requests.get('https://www.google.com/')
+response.content
 ```
 
 The above code would yield the [HTML](https://www.w3schools.com/html/) of the homepage of google.com.
@@ -22,7 +23,8 @@ import requests
 user = 'mvecchione145'
 url = 'https://api.github.com/users/' + user
 
-data = requests.get(url)
+response = requests.get(url)
+response.json()
 ```
 
 The above code would yield the [JSON](https://www.w3schools.com/js/js_json_intro.asp) representation of my user
@@ -66,7 +68,211 @@ can utilize the other request methods usually provided proper authentication.
 }
 ```
 
-## Methods
+## Response Object
+
+Running a call request will return a response object containing attributes and methods with context to the call.
+
+### Attributes
+#### apparent_encoding
+
+Returns the apparent encoding
+
+```
+res = requests.get(url)
+res.apparent_encoding
+```
+
+#### content
+
+Returns the content of the response, in bytes
+
+```
+res = requests.get(url)
+res.content
+```
+
+#### cookies
+
+Returns a CookieJar object with the cookies sent back from the server
+
+```
+res = requests.get(url)
+res.cookies
+```
+
+#### elapsed
+
+Returns a timedelta object with the time elapsed from sending the request to the arrival of the response
+
+```
+res = requests.get(url)
+res.elapsed
+```
+
+#### encoding
+
+Returns the encoding used to decode r.text
+
+```
+res = requests.get(url)
+res.encoding
+```
+
+#### headers
+
+Returns a dictionary of response headers
+
+```
+res = requests.get(url)
+res.headers
+```
+
+#### history
+
+Returns a list of response objects holding the history of request (url)
+
+```
+res = requests.get(url)
+res.history
+```
+
+#### is_permanent_redirect
+
+Returns True if the response is the permanent redirected url, otherwise False
+
+```
+res = requests.get(url)
+res.is_permanent_redirect
+```
+
+#### is_redirect
+
+Returns True if the response was redirected, otherwise False
+
+```
+res = requests.get(url)
+res.is_redirect
+```
+
+#### links
+
+Returns the header links
+
+```
+res = requests.get(url)
+res.links
+```
+
+#### next
+
+Returns a PreparedRequest object for the next request in a redirection
+
+```
+res = requests.get(url)
+res.next
+```
+
+#### ok
+
+Returns True if status_code is less than 400, otherwise False
+
+```
+res = requests.get(url)
+res.ok
+```
+
+#### reason
+
+Returns a text corresponding to the status code
+
+```
+res = requests.get(url)
+res.reason
+```
+
+#### request
+
+Returns the request object that requested this response
+
+```
+res = requests.get(url)
+res.request
+```
+
+#### status_code
+
+Returns a number that indicates the status (200 is OK, 404 is Not Found)
+
+```
+res = requests.get(url)
+res.status_code
+```
+
+#### text
+
+Returns the content of the response, in unicode
+
+```
+res = requests.get(url)
+res.text
+```
+
+#### url
+
+Returns the URL of the response
+
+```
+res = requests.get(url)
+res.url
+```
+
+### Methods
+#### close()
+
+Closes the connection to the server
+
+```
+res = requests.get(url)
+res.close()
+```
+
+#### iter_content()
+
+Iterates over the response
+
+```
+res = requests.get(url)
+res.iter_content()
+```
+
+#### iter_lines()
+
+Iterates over the lines of the response
+
+```
+res = requests.get(url)
+res.iter_lines()
+```
+
+#### json()
+
+Returns a JSON object of the result (if the result was written in JSON format, if not it raises an error)
+
+```
+res = requests.get(url)
+res.json()
+```
+
+#### raise_for_status()
+
+If an error occur, this method returns a HTTPError object
+
+```
+res = requests.get(url)
+res.raise_for_status()
+```
+
+## Request Methods
 
 [SEE MORE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
