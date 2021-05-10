@@ -1,26 +1,29 @@
 # python-quickstart
 Understanding the basics of python.
 
-### Prerequisites
+### SET UP
 
-#### Pycharm
+#### STEP 1: Download Pycharm
 
 Please download [pycharm](https://www.jetbrains.com/pycharm/download/).
 
-#### Clone this repo
+#### STEP 2: Clone this repo
 
 If you clone this repository to your local computer you may alter any of these exercise files and explore all
 possibilities within the scope of each lesson.
-
-##### 
 
 In a command line terminal window execute the following:
 ```
 git clone https://github.com/mvecchione145/python-quickstart.git
 ```
+
+#### STEP 3: Open Pycharm
+
 Then open pycharm and select create new project using the github repo as the base project path
 
 ![Image of pycharm project](pycharm-new-project.png)
+
+#### STEP 4: BEGIN!
 
 ## Lesson 1
 
