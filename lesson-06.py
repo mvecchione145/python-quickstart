@@ -14,8 +14,8 @@ from pprint import pprint
 
 
 def simple_html_get():
-    data = requests.get('http://www.google.com')
-    soup = BeautifulSoup(data.text, 'html.parser')
+    response = requests.get('http://www.google.com')
+    soup = BeautifulSoup(response.text, 'html.parser')
 
     print(soup.title)
 
@@ -32,8 +32,8 @@ def simple_json_get():
 
     # lines 28-31 do the same thing... f-strings are a python enhancement on python version 3
 
-    data = requests.get(url)
-    _json = json.loads(data.text)
+    response = requests.get(url)
+    _json = json.loads(response.text)
     # _json = data.json()
 
     # lines 36-37 do the same thing... requests call returns a response object with a json method that will return a
@@ -44,5 +44,5 @@ def simple_json_get():
 
 
 if __name__ == "__main__":
-    # simple_html_get()
-    simple_json_get()
+    simple_html_get()
+    # simple_json_get()
