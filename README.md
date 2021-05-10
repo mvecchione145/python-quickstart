@@ -75,7 +75,7 @@ Understanding how to create a Flask app and deploy it using [Heroku](https://www
 
 ### Resources
 
-- [Flask]()
+- [flask]()
 - [App Hosting]()
 
 ## Lesson 6
