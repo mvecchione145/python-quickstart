@@ -86,5 +86,5 @@ Understanding how to utilize the requests library and scrape the internet.
 
 ### Resources
 
-- [requests]()
-- [beautifulsoup]()
+- [requests](https://github.com/mvecchione145/python-quickstart/blob/main/resources/requests.md)
+- [beautifulsoup](https://github.com/mvecchione145/python-quickstart/blob/main/resources/beautifulsoup.md)
