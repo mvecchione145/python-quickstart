@@ -87,4 +87,4 @@ Understanding how to utilize the requests library and scrape the internet.
 ### Resources
 
 - [requests]()
-- [etree]()
+- [beautifulsoup]()
