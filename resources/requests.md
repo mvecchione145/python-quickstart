@@ -1,6 +1,6 @@
 # Requests
 
-"requests" is a built in python library that allows you to make calls to the internet.
+"requests" is a python library that allows you to make calls to the internet.
 
 [SEE MORE](https://pypi.org/project/requests/)
 
