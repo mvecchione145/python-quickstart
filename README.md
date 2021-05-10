@@ -66,3 +66,14 @@ Understanding how to create your own packages.
 ### Resources
 
 - [Packages]()
+
+## Lesson 5
+
+Understanding how to create a Flask app and deploy it using [Heroku](https://www.heroku.com/home).
+
+[Exercise](https://github.com/mvecchione145/python-quickstart/blob/main/lesson-05.py)
+
+### Resources
+
+- [Flask]()
+- [App Hosting]()
