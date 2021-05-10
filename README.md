@@ -75,8 +75,8 @@ Understanding how to create a Flask app and deploy it using [Heroku](https://www
 
 ### Resources
 
-- [flask]()
-- [App Hosting]()
+- [flask](https://github.com/mvecchione145/python-quickstart/blob/main/resources/flask.md)
+- [App Hosting](https://github.com/mvecchione145/python-quickstart/blob/main/resources/hosting.md)
 
 ## Lesson 6
 
