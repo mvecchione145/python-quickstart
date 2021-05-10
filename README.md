@@ -65,7 +65,7 @@ Understanding how to create your own packages.
 
 ### Resources
 
-- [Packages]()
+- [Packages](https://github.com/mvecchione145/python-quickstart/blob/main/resources/packages.md)
 
 ## Lesson 5
 
