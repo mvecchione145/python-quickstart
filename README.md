@@ -91,3 +91,13 @@ Understanding how to utilize the requests library and scrape the internet.
 
 - [requests](https://github.com/mvecchione145/python-quickstart/blob/main/resources/requests.md)
 - [beautifulsoup](https://github.com/mvecchione145/python-quickstart/blob/main/resources/beautifulsoup.md)
+
+## Lesson 7
+
+Creating a weather app and hosting on heroku.
+
+[Exercise](https://github.com/mvecchione145/flask_demo)
+
+### Resources
+
+- [heroku](https://devcenter.heroku.com/categories/python-support)
